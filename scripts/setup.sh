@@ -42,3 +42,4 @@ echo "2. Create admin: cd backend && npm run create-admin"
 echo "3. Start dev: npm run dev"
 
 
+

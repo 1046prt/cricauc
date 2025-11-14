@@ -106,3 +106,4 @@ console.log('2. Create admin: cd backend && npm run create-admin');
 console.log('3. Start dev: npm run dev\n');
 
 
+

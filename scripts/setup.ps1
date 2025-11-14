@@ -39,3 +39,4 @@ Write-Host "2. Create admin: cd backend && npm run create-admin" -ForegroundColo
 Write-Host "3. Start dev: npm run dev" -ForegroundColor White
 
 
+
