@@ -1,0 +1,17 @@
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { TradesService } from './trades.service';
+import { TradesController } from './trades.controller';
+import { Trade } from './entities/trade.entity';
+import { Team } from '../teams/entities/team.entity';
+import { TeamsModule } from '../teams/teams.module';
+import { TransactionsModule } from '../transactions/transactions.module';
+
+@Module({
+  imports: [TypeOrmModule.forFeature([Trade, Team]), TeamsModule, TransactionsModule],
+  controllers: [TradesController],
+  providers: [TradesService],
+  exports: [TradesService],
+})
+export class TradesModule {}
+
