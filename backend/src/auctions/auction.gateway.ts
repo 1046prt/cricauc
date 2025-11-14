@@ -8,7 +8,6 @@ import {
   ConnectedSocket,
 } from '@nestjs/websockets';
 import { Server, Socket } from 'socket.io';
-import { UseGuards } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { AuctionsService } from './auctions.service';
 import { AuthService } from '../auth/auth.service';
@@ -158,7 +157,7 @@ export class AuctionGateway implements OnGatewayConnection, OnGatewayDisconnect 
     @MessageBody() data: { auctionId: string; seconds: number },
   ) {
     try {
-      const auction = await this.auctionsService.updateTimer(data.auctionId, data.seconds);
+      await this.auctionsService.updateTimer(data.auctionId, data.seconds);
 
       this.server.to(`auction-${data.auctionId}`).emit('timer-updated', {
         auctionId: data.auctionId,
@@ -176,4 +175,3 @@ export class AuctionGateway implements OnGatewayConnection, OnGatewayDisconnect 
     this.server.to(`auction-${auctionId}`).emit('auction-updated', auction);
   }
 }
-

@@ -11,4 +11,3 @@ export class CreateTeamDto {
   @IsUUID()
   leagueId: string;
 }
-

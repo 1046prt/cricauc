@@ -23,4 +23,3 @@ export class CreateTradeDto {
   @IsString()
   message?: string;
 }
-

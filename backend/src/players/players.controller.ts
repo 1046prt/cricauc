@@ -68,4 +68,3 @@ export class PlayersController {
     return this.playersService.remove(id);
   }
 }
-

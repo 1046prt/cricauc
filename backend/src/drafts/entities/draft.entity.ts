@@ -9,7 +9,6 @@ import {
   JoinColumn,
 } from 'typeorm';
 import { League } from '../../leagues/entities/league.entity';
-import { Player } from '../../players/entities/player.entity';
 import { DraftPick } from './draft-pick.entity';
 
 export enum DraftStatus {
@@ -62,4 +61,3 @@ export class Draft {
   @UpdateDateColumn()
   updatedAt: Date;
 }
-

@@ -108,4 +108,3 @@ export class TeamsService {
     await this.teamPlayerRepository.remove(teamPlayer);
   }
 }
-

@@ -19,4 +19,3 @@ export class UsersController {
     return this.usersService.updateProfile(user.id, updateData);
   }
 }
-

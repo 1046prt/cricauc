@@ -46,4 +46,3 @@ export class HistoricalPoints {
   @CreateDateColumn()
   createdAt: Date;
 }
-

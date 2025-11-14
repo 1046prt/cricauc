@@ -23,4 +23,3 @@ export class CreateTransactionDto {
   @IsUUID()
   tradeId?: string;
 }
-

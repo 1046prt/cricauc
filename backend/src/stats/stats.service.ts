@@ -47,4 +47,3 @@ export class StatsService {
     return this.historicalPointsRepository.save(created);
   }
 }
-

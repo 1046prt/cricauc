@@ -64,4 +64,3 @@ export class Player {
   @UpdateDateColumn()
   updatedAt: Date;
 }
-

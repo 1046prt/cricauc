@@ -31,4 +31,3 @@ export class CreatePlayerDto {
   @IsOptional()
   stats?: Record<string, any>;
 }
-

@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param, Delete, UseGuards, Query } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, UseGuards, Query } from '@nestjs/common';
 import { TeamsService } from './teams.service';
 import { CreateTeamDto } from './dto/create-team.dto';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
@@ -25,4 +25,3 @@ export class TeamsController {
     return this.teamsService.findOne(id);
   }
 }
-

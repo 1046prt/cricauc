@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param, Patch, UseGuards, Query } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, UseGuards, Query } from '@nestjs/common';
 import { AuctionsService } from './auctions.service';
 import { CreateAuctionDto } from './dto/create-auction.dto';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
@@ -68,4 +68,3 @@ export class AuctionsController {
     return this.auctionsService.placeBid(id, teamId, user.id, amount);
   }
 }
-

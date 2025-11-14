@@ -46,4 +46,3 @@ export class LeaguesService {
     await this.leagueRepository.delete(id);
   }
 }
-

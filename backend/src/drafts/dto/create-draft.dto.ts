@@ -12,4 +12,3 @@ export class CreateDraftDto {
   @IsUUID(undefined, { each: true })
   pickOrder: string[]; // Array of team IDs
 }
-

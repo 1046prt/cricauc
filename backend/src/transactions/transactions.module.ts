@@ -9,4 +9,3 @@ import { Transaction } from './entities/transaction.entity';
   exports: [TransactionsService],
 })
 export class TransactionsModule {}
-

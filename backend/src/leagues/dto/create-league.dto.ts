@@ -39,4 +39,3 @@ export class CreateLeagueDto {
   @IsDateString()
   endDate?: Date;
 }
-

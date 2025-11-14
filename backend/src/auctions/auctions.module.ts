@@ -22,4 +22,3 @@ import { TransactionsModule } from '../transactions/transactions.module';
   exports: [AuctionsService],
 })
 export class AuctionsModule {}
-

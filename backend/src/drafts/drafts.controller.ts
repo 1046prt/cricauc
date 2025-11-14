@@ -51,4 +51,3 @@ export class DraftsController {
     return this.draftsService.endDraft(id);
   }
 }
-

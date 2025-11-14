@@ -28,4 +28,3 @@ export class CreateHistoricalPointsDto {
   @IsOptional()
   detailedStats?: Record<string, any>;
 }
-

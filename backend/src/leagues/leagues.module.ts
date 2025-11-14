@@ -11,4 +11,3 @@ import { League } from './entities/league.entity';
   exports: [LeaguesService],
 })
 export class LeaguesModule {}
-

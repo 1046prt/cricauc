@@ -42,4 +42,3 @@ export class DraftPick {
   @CreateDateColumn()
   createdAt: Date;
 }
-

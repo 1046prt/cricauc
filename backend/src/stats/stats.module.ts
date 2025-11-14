@@ -12,4 +12,3 @@ import { Player } from '../players/entities/player.entity';
   exports: [StatsService],
 })
 export class StatsModule {}
-

@@ -10,4 +10,3 @@ export class CreateAuctionDto {
   @IsNumber()
   startingPrice: number;
 }
-

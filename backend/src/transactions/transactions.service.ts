@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Transaction, TransactionType } from './entities/transaction.entity';
+import { Transaction } from './entities/transaction.entity';
 import { CreateTransactionDto } from './dto/create-transaction.dto';
 
 @Injectable()
@@ -23,4 +23,3 @@ export class TransactionsService {
     });
   }
 }
-

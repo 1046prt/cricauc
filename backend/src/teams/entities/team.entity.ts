@@ -7,12 +7,9 @@ import {
   ManyToOne,
   OneToMany,
   JoinColumn,
-  ManyToMany,
-  JoinTable,
 } from 'typeorm';
 import { User } from '../../users/entities/user.entity';
 import { League } from '../../leagues/entities/league.entity';
-import { Player } from '../../players/entities/player.entity';
 import { TeamPlayer } from './team-player.entity';
 import { Transaction } from '../../transactions/entities/transaction.entity';
 
@@ -62,4 +59,3 @@ export class Team {
   @UpdateDateColumn()
   updatedAt: Date;
 }
-

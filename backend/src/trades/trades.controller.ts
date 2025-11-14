@@ -40,4 +40,3 @@ export class TradesController {
     return this.tradesService.cancelTrade(id, user.id);
   }
 }
-

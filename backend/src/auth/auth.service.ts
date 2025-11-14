@@ -8,7 +8,7 @@ import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import * as bcrypt from 'bcrypt';
-import { User, UserRole } from '../users/entities/user.entity';
+import { User } from '../users/entities/user.entity';
 import { RegisterDto } from './dto/register.dto';
 import { LoginDto } from './dto/login.dto';
 import { v4 as uuidv4 } from 'uuid';
@@ -46,7 +46,7 @@ export class AuthService {
     // In production, send verification email here
     // await this.emailService.sendVerificationEmail(user.email, verificationToken);
 
-    const { password, ...result } = user;
+    const { password: _, ...result } = user;
     return result;
   }
 
@@ -184,4 +184,3 @@ export class AuthService {
     };
   }
 }
-

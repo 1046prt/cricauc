@@ -7,8 +7,6 @@ import {
   JoinColumn,
 } from 'typeorm';
 import { Team } from '../../teams/entities/team.entity';
-import { Auction } from '../../auctions/entities/auction.entity';
-import { Trade } from '../../trades/entities/trade.entity';
 
 export enum TransactionType {
   PURCHASE = 'purchase',
@@ -50,4 +48,3 @@ export class Transaction {
   @CreateDateColumn()
   createdAt: Date;
 }
-

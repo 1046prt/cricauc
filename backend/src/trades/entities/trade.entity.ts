@@ -9,7 +9,6 @@ import {
 } from 'typeorm';
 import { User } from '../../users/entities/user.entity';
 import { Team } from '../../teams/entities/team.entity';
-import { Player } from '../../players/entities/player.entity';
 
 export enum TradeStatus {
   PENDING = 'pending',
@@ -69,4 +68,3 @@ export class Trade {
   @UpdateDateColumn()
   updatedAt: Date;
 }
-

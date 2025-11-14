@@ -34,4 +34,3 @@ export class StatsController {
     return this.statsService.bulkCreate(points);
   }
 }
-

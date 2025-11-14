@@ -45,4 +45,3 @@ createAdmin().catch((error) => {
   console.error('Error creating admin user:', error);
   process.exit(1);
 });
-
