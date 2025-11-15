@@ -1,0 +1,105 @@
+{
+  "leagues": {
+    "IPL": {
+      "name": "Indian Premier League",
+      "color": "from-blue-600 to-purple-600",
+      "teams": [
+        "Chennai Super Kings",
+        "Mumbai Indians",
+        "Royal Challengers Bengaluru",
+        "Kolkata Knight Riders",
+        "Rajasthan Royals",
+        "Delhi Capitals",
+        "Sunrisers Hyderabad",
+        "Punjab Kings",
+        "Gujarat Titans",
+        "Lucknow Super Giants"
+      ]
+    },
+    "WPL": {
+      "name": "Women's Premier League",
+      "color": "from-pink-600 to-rose-600",
+      "teams": [
+        "Mumbai Indians Women",
+        "Delhi Capitals Women",
+        "Royal Challengers Bangalore Women",
+        "UP Warriorz",
+        "Gujarat Giants Women"
+      ]
+    },
+    "BBL": {
+      "name": "Big Bash League",
+      "color": "from-orange-600 to-red-600",
+      "teams": [
+        "Adelaide Strikers",
+        "Brisbane Heat",
+        "Hobart Hurricanes",
+        "Melbourne Renegades",
+        "Melbourne Stars",
+        "Perth Scorchers",
+        "Sydney Sixers",
+        "Sydney Thunder"
+      ]
+    },
+    "WBBL": {
+      "name": "Women's Big Bash League",
+      "color": "from-purple-600 to-pink-600",
+      "teams": [
+        "Adelaide Strikers Women",
+        "Brisbane Heat Women",
+        "Hobart Hurricanes Women",
+        "Melbourne Renegades Women",
+        "Melbourne Stars Women",
+        "Perth Scorchers Women",
+        "Sydney Sixers Women",
+        "Sydney Thunder Women"
+      ]
+    },
+    "Hundred_Men": {
+      "name": "The Hundred Men",
+      "color": "from-green-600 to-teal-600",
+      "teams": [
+        "Birmingham Phoenix (Men)",
+        "London Spirit (Men)",
+        "Manchester Originals (Men)",
+        "Northern Superchargers (Men)",
+        "Oval Invincibles (Men)",
+        "Trent Rockets (Men)",
+        "Southern Brave (Men)",
+        "Welsh Fire (Men)"
+      ]
+    },
+    "Hundred_Women": {
+      "name": "The Hundred Women",
+      "color": "from-teal-600 to-cyan-600",
+      "teams": [
+        "Birmingham Phoenix (Women)",
+        "London Spirit (Women)",
+        "Manchester Originals (Women)",
+        "Northern Superchargers (Women)",
+        "Oval Invincibles (Women)",
+        "Trent Rockets (Women)",
+        "Southern Brave (Women)",
+        "Welsh Fire (Women)"
+      ]
+    },
+    "ISL": {
+      "name": "Indian Super League",
+      "color": "from-indigo-600 to-blue-600",
+      "teams": [
+        "ATK Mohun Bagan",
+        "Bengaluru FC",
+        "Chennaiyin FC",
+        "East Bengal FC",
+        "FC Goa",
+        "Hyderabad FC",
+        "Jamshedpur FC",
+        "Kerala Blasters FC",
+        "Mumbai City FC",
+        "NorthEast United FC",
+        "Odisha FC",
+        "Punjab FC"
+      ]
+    }
+  }
+}
